@@ -10,9 +10,9 @@ $fahrenheit = ($celsius * 1.8) + 32;
 echo "{$celsius} graden Celsius = {$fahrenheit} graden Fahrenheit. <br/>";
 
 // Fahrenheit naar Kelvin
- $fahrenheit = 32;
- $kelvin = ($fahrenheit -32) * 1.8 + 273.15;
- echo "{$fahrenheit} graden Fahrenheit = {$kelvin} graden Kelvin. <br/>";
+$fahrenheit = 40;
+$kelvin = ($fahrenheit - 32) * 5/9 + 273.15;
+echo "{$fahrenheit} graden Fahrenheit = {$kelvin} graden Kelvin. <br/>";
  
  // celsius naar Kelvin
 $celsius = 0;
