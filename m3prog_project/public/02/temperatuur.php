@@ -15,6 +15,6 @@ $kelvin = ($fahrenheit - 32) * 5/9 + 273.15;
 echo "{$fahrenheit} graden Fahrenheit = {$kelvin} graden Kelvin. <br/>";
  
  // celsius naar Kelvin
-$celsius = 0;
+$celsius = -20;
 $kelvin = ($celsius + 273.15 );
 echo "{$celsius} graden Celsius = {$kelvin} graden Kelvin. <br/>";
