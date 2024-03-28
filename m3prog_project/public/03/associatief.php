@@ -8,16 +8,16 @@
 </head>
 <body>
     <?php
-        $verbruik = ["koelkast"=>250, "vaatwasser"=>240, "koffiezet"=>60, "wasmachine"=>170, "stofzuiger"=>110];
+        $verbruik = ["koelkast"=>1000, "vaatwasser"=>1200, "koffiezet"=>60, "wasmachine"=>1170, "stofzuiger"=>110];
         foreach($verbruik as $key => $value){
-            echo "<p>" . $key . " = " . $value . " kwh</p>";
+            echo "<p>" . $key . " = " . $value . " KwH</p>";
         }
         $totaal = 0;
         foreach($verbruik as $key => $value){
             $totaal += $value;
         }
         echo "<h1>Totaal</h2>";
-        echo "<p>" . $totaal . " kwh</p>";
+        echo "<p>" . $totaal . " KwH</p>";
     ?>
 </body>
 </html>
