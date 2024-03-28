@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        $verbruik = ["koelkast"=>200, "vaatwasser"=>220, "koffiezet"=>25, "wasmachine"=>150, "stofzuiger"=>100];
+        $verbruik = ["koelkast"=>250, "vaatwasser"=>240, "koffiezet"=>60, "wasmachine"=>170, "stofzuiger"=>110];
         foreach($verbruik as $key => $value){
             echo "<p>" . $key . " = " . $value . " kwh</p>";
         }
