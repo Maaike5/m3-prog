@@ -1,9 +1,18 @@
 <?php
-$zangers = ["Jaap Reesema", "adele", "acda en de munik", "flemming", "bruno mars", "Nielson", "Diggy Dex"];
-echo count($zangers);
-$zangers[] = "nog een zanger";
-echo count($dagen);
-sort($zangers	);
-echo implode(' >> ', $zangers);
-print_r($zangers)
-?>
+$zangers = ["Jaap Reesema", "Bruno Mars", "Sam Smith", "Acda en de Munnik", "Benson Boone"];
+print_r($zangers);
+echo "<br>";
+echo "$zangers[2]<br>";
+echo "$zangers[4]<br>";
+
+
+print_r($zangers);
+echo "<br>";
+var_dump($zangers);
+echo "<br>";
+echo count($zangers)."<br>";
+array_push($zangers, "Danny Jones");
+print_r($zangers);
+echo "<br>";
+sort($zangers);
+echo implode(' ', $zangers);
